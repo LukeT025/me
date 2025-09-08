@@ -1,65 +1,154 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>About Me</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            line-height: 1.6;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        .main-info {
-            background: #333;
-            color: #fff;
-            padding: 20px;
-        }
-        .main-info h1 {
-            margin: 0;
-        }
-        .hobbies, .lewis, .course, .job {
-            background: #e7e7e7;
-            padding: 15px;
-            margin-bottom: 10px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <title>Luke Thormeyer’s Introductions Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      text-align: center;
+      background: #f4f4f4 url('wow.gif') center/cover no-repeat fixed;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 16px;
+      background: rgba(255,255,255,0.92);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+    }
+
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px 16px;
+    }
+
+    h1 {
+      margin: 0 0 6px 0;
+      font-size: 2rem;
+    }
+
+    h2 {
+      margin-top: 28px;
+      background: #e8edf9;
+      padding: 10px;
+      display: inline-block;
+      border-radius: 8px;
+    }
+
+    p { margin: 8px 0; }
+
+    ul {
+      list-style-type: square;
+      list-style-position: inside;
+      text-align: left;
+      display: inline-block;
+      margin: 8px auto;
+      padding-left: 0;
+    }
+
+    ol {
+      list-style-position: inside;
+      text-align: left;
+      display: inline-block;
+      margin: 8px auto;
+      padding-left: 0;
+    }
+
+    .hero {
+      display: block;
+      margin: 18px auto 8px auto;
+      border: 4px double #333;
+      max-width: 800px;
+      width: 100%;
+      height: auto;
+    }
+
+    .thumb {
+      display: block;
+      margin: 8px auto 16px auto;
+      border: 3px double #666;
+      max-width: 300px;
+      width: 100%;
+      height: auto;
+    }
+
+    .contact {
+      margin-top: 8px;
+    }
+
+    .card {
+      background: #f7f7fb;
+      padding: 14px;
+      border-radius: 10px;
+      margin: 14px auto;
+    }
+
+    a { color: #0b5bd3; }
+    a:hover { text-decoration: none; }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <header class="main-info">
-            <h1>Luke Thormeyer</h1>
-            <h1>Preferred Name: Luke</h1>
-        </header>
+  <div class="container">
+    <header>
+      <h1>Luke Thormeyer’s Introductions Website</h1>
+      <p>Preferred Name: “Luke”</p>
+    </header>
 
-        <section class="lewis">
-			<h2>Year at Lewis: Senior</h2>
-			<h2>Lewis major/minor/concentrations: Major: Comp Sci, Minors: Math and Data Science</h2>
-			<h2>Reasons for pursuing this degree: I love Computers and want to work with them for a living</h2>
-        </section>
+    <img class="hero" src="me-800-by-800.jpg" alt="Head and shoulders photo of Luke Thormeyer" />
+    <img class="thumb" src="me-300-by-300.jpg" alt="Thumbnail of Luke Thormeyer" />
 
-		<section class="course">
-            <h2>Reasons for Taking This Course</h2>
-            <p>I anm taking this course for my Computer Science major but also want to learn about the fundadmentals of Software Enginerring</p>
-        </section>
-
-		<section class="job">
-            <p>Current/Recent Job</p>
-			<p>I have never had a job, have been looking though</p>
-        </section>		
-
-        <section class="hobbies">
-            <h2>Hobbies and Special Interests</h2>
-            <p>I like to draw, write, play video games, bowl, and go to conventions</p>
-        </section>
-
-        <section class="fun-fact">
-            <h2>Fun Fact</h2>
-            <p>I have been to Disney World about 20+ times</p>
-        </section>
+    <div class="contact">
+      <p>Email: <a href="mailto:lukemthormeyer@lewisu.edu">lukemthormeyer@lewisu.edu</a></p>
+      <p>Discord: LuckyFox5#5524</p>
     </div>
+
+    <section>
+      <h2>Introduction &#128513;</h2>
+      <p>Hi, my name is Luke Thormeyer. I’m 21, live in New Lenox, and I’m a Computer Science major.</p>
+      <p>I live with my mom and my brother and sister (Kevin and Claire).</p>
+    </section>
+
+    <section class="card">
+      <h2>What I Hope to Learn in this Course &#10071;</h2>
+      <ol>
+        <li>How to use Python</li>
+        <li>Improve my coding ability</li>
+        <li>Hex and decimal systems</li>
+        <li>File types and naming conventions</li>
+      </ol>
+    </section>
+
+    <section class="card">
+      <h2>My Favorite Hobby / Activity &#128126;</h2>
+      <ul>
+        <li>Drawing — <a href="https://www.drawspace.com" target="_blank" rel="noopener">learn more about drawing</a></li>
+        <li>Playing video games</li>
+        <li>Bowling</li>
+        <li>Going to conventions</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Fun Fact &#128508;</h2>
+      <p>I’ve been to Disney World more than 20 times!</p>
+    </section>
+
+    <section class="card">
+      <h2>About My Program</h2>
+      <p>Year at Lewis: Senior</p>
+      <p>Major: Computer Science &nbsp;•&nbsp; Minors: Math and Data Science</p>
+      <p>Why this degree? I love computers and want to work with them for a living.</p>
+    </section>
+
+    <section class="card">
+      <h2>Current/Recent Job</h2>
+      <p>I haven’t had a job yet, but I’ve been looking.</p>
+    </section>
+  </div>
 </body>
 </html>
